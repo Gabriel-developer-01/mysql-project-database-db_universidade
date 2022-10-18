@@ -1,14 +1,20 @@
 <h1 id="nome-do-projeto" align="center">PROJETO PANDEMIA</h1>
 
-  - [Sobre o projeto](#sobre)
-  - 🤖 [Tecnologias](#tecnologias)
+  - [Sobre o projeto](#about)
+  - [Modelagem de dados](#data-modeling)
+  - 🤖 [Tecnologias](#technologies)
   - 🎊 [Features](#features)
   - 👨‍👨‍👦‍👦 [EQUIPE](#squad)
     
 
-<h2 id="sobre">📈 Sobre o projeto </h2>
+<h2 id="about">📈 Sobre o projeto </h2>
+..loading
 
-<h2 id="tecnologias">🤖 Tecnologias/Ferrramentas</h2>
+<h2 id="data-modeling">📋 Modelagem de dados</h2>
+
+![modelo-projeto](data-modeling/project-data-modeling.png)
+
+<h2 id="technologies">🤖 Tecnologias/Ferrramentas</h2>
 
 - **MYSQL WORKBENCH**
 - **MYSQL SERVER**
