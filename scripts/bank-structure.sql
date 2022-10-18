@@ -13,9 +13,10 @@ CREATE TABLE IF NOT EXISTS `pessoa` (
 
 CREATE TABLE IF NOT EXISTS `pesquisa_pandemia` (
   `id` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  `data_pesquisa` varchar(50) NOT NULL,
+  `data_pesquisa` date NOT NULL,
   `salario` varchar(14) NOT NULL,
   `id_pessoa` int NOT NULL,
+  `data_inclusao` datetime default CURRENT_TIMESTAMP,
    FOREIGN KEY (id_pessoa) REFERENCES pessoa(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
