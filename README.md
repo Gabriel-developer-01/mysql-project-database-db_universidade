@@ -1,9 +1,9 @@
 <h1 id="nome-do-projeto" align="center">PROJETO PANDEMIA</h1>
 
-  - [Sobre o projeto](#about)
-  - [Modelagem de dados](#data-modeling)
+  - 📈 [Sobre o projeto](#about)
+  - 📋 [Modelagem de dados](#data-modeling)
   - 🤖 [Tecnologias](#technologies)
-  - 🎊 [Features](#features)
+  - 🎊 [Tarefas](#features)
   - 👨‍👨‍👦‍👦 [EQUIPE](#squad)
     
 
