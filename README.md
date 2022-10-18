@@ -1,10 +1,12 @@
 <h1 id="nome-do-projeto" align="center">PROJETO PANDEMIA</h1>
 
+  - [Sobre o projeto](#sobre)
   - 🤖 [Tecnologias](#tecnologias)
   - 🎊 [Features](#features)
   - 👨‍👨‍👦‍👦 [EQUIPE](#squad)
     
 
+<h2 id="sobre">📈 Sobre o projeto </h2>
 
 <h2 id="tecnologias">🤖 Tecnologias/Ferrramentas</h2>
 
@@ -17,8 +19,9 @@
 - [] Geração de gráficos
 - [] popular dados no banco
 - [] criação do slide
+- [] criação dos objetos(views, procedures e etc)
 
-## Como Executar o projeto o projeto
+## Como Executar o projeto 
 
 ```
 clonar repositório
