@@ -1,4 +1,4 @@
-#%%
+# %%
 import matplotlib.pyplot as grafico
 import pyodbc
 
@@ -16,12 +16,9 @@ cursor = retornar_conexao_sql()
 salario = []
 ano = []
 
-for row in cursor.execute("""SELECT pp.salario, pp.data_pesquisa FROM pessoa p
-            join pessoa_entrevista pe on p.id = pe.id_pessoa
-            join pesquisa_pandemia pp on pp.id = pe.id_pesquisa
-            order by 2""") :
+for row in cursor.execute("""SELECT * FROM V_BUSCAR_MEDIA_SALARIAL_POR_ANO""") :
     salario.append(str(row[0]))
-    ano.append(row[1].strftime("%Y"))
+    ano.append(int(row[1]))
 
 cursor.close()
 

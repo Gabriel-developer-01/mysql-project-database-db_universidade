@@ -43,7 +43,8 @@ git clone https://github.com/Gabriel-developer-01/mysql-project-database-db_univ
 
 PROJETO PARA GERAR GRÁFICO EM PYTHON
 1. com o python e o vscode instalado baixe a extensão do python no vscode
-3. instalar o JupyterLab: [rodar no terminal] pip install jupyterlab
+2. instalar biblioteca matplotlib: pip install matplotlib
+3. instalar a biblioteca o JupyterLab: [rodar no terminal] pip install jupyterlab
 4. instalar o Jupyter Notebook clássico: [rodar no terminal] pip install notebook
 5. executar o notebook: [rodar no terminal] jupyter notebook.
 6. após isso com o projeto aberto no vscode abra o arquivo generate-grafic.py
