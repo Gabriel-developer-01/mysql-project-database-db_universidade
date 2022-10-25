@@ -28,7 +28,7 @@
 - [x] Geração de gráficos
 - [] popular dados no banco
 - [] criação do slide
-- [] criação dos objetos(views, procedures e etc)
+- [X] criação dos objetos(views, procedures e etc)
 
 <h2 id="environment-install"> 🧑‍🔧 Preparando o ambiente</h2>
 
