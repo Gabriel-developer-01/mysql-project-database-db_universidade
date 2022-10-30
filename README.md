@@ -9,7 +9,9 @@
     
 
 <h2 id="about">📈 Sobre o projeto </h2>
-..loading
+<p align="justify"> Nossa equipe ficou responsável por desenvolver um projeto sobre a remuneração antes e durante o período da pandemia. Escolhemos como banco de dados o mysql, que é um banco de dados relacional e atende as nossas necessidades porque não vamos trabalhar com uma enorme quantidade de dados, porém precisamos manipular dados estruturados e o SQL é uma ótima opção.
+Foram usado o GIT e o GITHUB para gerenciar o controle de versão do nosso projeto, assim cada integrante da equipe pode ajudar na criação do projeto além de acompanhar a evolução. Além disso, foi realizado a criação de um projeto em python para conectar ao nosso banco de dados e gerar um gráfico com base nos dados que estão armazenados nele.</p>
+
 
 <h2 id="data-modeling">📋 Modelagem de dados</h2>
 
@@ -26,8 +28,8 @@
 
 - [x] criar estrutura do banco
 - [x] Geração de gráficos
-- [] popular dados no banco
-- [] criação do slide
+- [X] popular dados no banco
+- [X] criação do slide
 - [X] criação dos objetos(views, procedures e etc)
 
 <h2 id="environment-install"> 🧑‍🔧 Preparando o ambiente</h2>
@@ -43,6 +45,7 @@ git clone https://github.com/Gabriel-developer-01/mysql-project-database-db_univ
 
 PROJETO PARA GERAR GRÁFICO EM PYTHON
 1. com o python e o vscode instalado baixe a extensão do python no vscode
+2. instalar biblioteca pyodbc: pip install pyodbc
 2. instalar biblioteca matplotlib: pip install matplotlib
 3. instalar a biblioteca o JupyterLab: [rodar no terminal] pip install jupyterlab
 4. instalar o Jupyter Notebook clássico: [rodar no terminal] pip install notebook

@@ -2,7 +2,8 @@ CREATE OR REPLACE VIEW `V_BUSCAR_MEDIA_SALARIAL_POR_ANO` AS
 SELECT FORMAT(AVG(pp.salario), 2) as media_salarial, YEAR(pp.data_pesquisa) ano  FROM pessoa p
 	JOIN pessoa_entrevista pe on p.id = pe.id_pessoa
 	JOIN pesquisa_pandemia pp on pp.id = pe.id_pesquisa
-GROUP BY ano;
+GROUP BY ano
+ORDER BY 2;
 
 -- retornar os salarios de cada pessoa durante a pandemia 
 CREATE OR REPLACE VIEW `V_BUSCAR_SALARIO_PESSOA_PANDEMIA` AS

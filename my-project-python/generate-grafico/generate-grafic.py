@@ -1,6 +1,5 @@
 # %%
 import matplotlib.pyplot as grafico
-from pandas import isnull
 import pyodbc
 
 def retornar_conexao_sql():
@@ -25,7 +24,8 @@ cursor.close()
 
 grafico.ylabel('Média Salarial', color='blue')
 grafico.xlabel('Ano', color='blue')
-grafico.title('Gráfico de salário por ano')
+grafico.title('Gráfico de salário por ano', color='blue')
+grafico.xticks(ano)
+grafico.scatter(ano, salario, marker="", c='r', edgecolor=None)
 grafico.bar(ano, salario)
-grafico.show()
 # %%

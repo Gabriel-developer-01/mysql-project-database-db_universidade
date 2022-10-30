@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS  `empresa` (
 CREATE TABLE IF NOT EXISTS  `cargo` (
   `id` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `nome` varchar(50) NOT NULL,
-  `nivel` varchar(14) NOT NULL,
-  `id_pessoa` int NOT NULL,
+  `nivel` varchar(30),
+  `id_pessoa` int NOT NULL UNIQUE,
   FOREIGN KEY (id_pessoa) REFERENCES pessoa(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
